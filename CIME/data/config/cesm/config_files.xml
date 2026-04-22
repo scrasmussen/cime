@@ -231,6 +231,7 @@
       <value component="rtm"                         >$SRCROOT/components/rtm/</value>
       <value component="mosart"                      >$SRCROOT/components/mosart/</value>
       <value component="mizuroute"                   >$SRCROOT/components/mizuRoute/</value>
+      <value component="wrfhydro"                    >$SRCROOT/components/wrfhydro/src/CPL/CTSM_cpl</value>
       <value component="drof"  >$SRCROOT/components/cdeps/drof</value>
       <value component="srof"  >$CIMEROOT/CIME/non_py/src/components/stub_comps_$COMP_INTERFACE/srof</value>
       <value component="xrof"  >$SRCROOT/components/cmeps/med_test_comps/xrof</value>
@@ -582,6 +583,7 @@
     <type>char</type>
     <values>
       <value>$COMP_ROOT_DIR_ROF/cime_config/config_component.xml</value>
+      <!-- <value>$COMP_ROOT_DIR_ROF/src/CPL/CTSM_cpl/cime_config/config_component.xml</value> -->
     </values>
     <group>case_last</group>
     <file>env_case.xml</file>
